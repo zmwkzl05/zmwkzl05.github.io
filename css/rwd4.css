@@ -1,5 +1,5 @@
 * { box-sizing:border-box; padding:0; margin:0; }
-.row::after { content:""; clear:borh; display:table; }
+.row::after { content:""; clear:both; display:table; }
 [class*="col-"] { float:left; padding:10px; }
 .header, .footer { background-color:lightgray; color:blue; padding:10px; }
 .menu ul, .banner ul { list-style-type:none; }
