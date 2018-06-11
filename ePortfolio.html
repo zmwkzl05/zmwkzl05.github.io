@@ -3,7 +3,7 @@
 <head> <meta charset = "utf-8"/>
 <meta name = "viewport" content="width=device-width, initial-scale=1"/>
 <style>
-  <link rel="stylesheet" href="css/rwd4.css"/>
+  <link rel="stylesheet" href="../css/rwd4.css"/>
   * { box-sizing:border-box; padding:0; margin:0; backgrond-color:#E8D9FF; }
   .row::after { content:""; clear:both; display:table; } 
   [class*="col-"] { float:left; padding:10px; }
@@ -13,6 +13,8 @@
   .menu li hover { background-color:red; }
   .banner li { border:2px soikd black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
   .banner li img { width:30%; vertical-align:middle; }
+  ul.char { list-style:none; }
+  ul.char li:before { content:"*"; padding-right:0px; color:red; }
   @media only screen and(max-width:768px) { [class*="col-"] {width:100%; }}
   a:link {  color:blue; background-color:transparent; text-decoration:none;}
   a:visited {  color:pink; background-color:transparent; text-decoration:none;}
@@ -34,13 +36,13 @@
   </nav>
   <section class="col-6 col-m-9"> 
     <h4>profil</h4><br/>
-    <ul>
+    <ul type="none">
       <li>학력
-      <ul>
-        <li> 2017.02 청주대성고 졸업</li>
+      <ul class="char">
+        <li> 2017.02 청주대성고등학교 졸업</li>
         <li> 2017.03 대전대학교 컴퓨터공학과 입학</li>
         <li> 2018.03 컴퓨터공학과 동아리 캐릭터 부회장</li>
-        <li> 2018.03 대전대학교 HRC 튜터 임명</li>
+        <li> 2018.03 대전대학교 HRC 18년 1학기 튜터 임명</li>
       </ul>
       </li>
     </ul>
