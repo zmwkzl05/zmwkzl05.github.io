@@ -4,9 +4,10 @@
 <meta name = "viewport" content="width=device-width, initial-scale=1"/>
 <link rel="stylesheet" href="../css/rwd4.css"/>
 <style>
-  * { box-sizing:border-box; padding:0; margin:0; backgrond-color:#E8D9FF; }
+  * { box-sizing:border-box; padding:0; margin:0; }
   .row::after { content:""; clear:both; display:table; } 
   [class*="col-"] { float:left; padding:10px; }
+  .main { background-color:#FAEBFF; }
   .header, .footer { background-color:lightgray; color:blue; padding:10px; }
   .menu ul, .banner ul { list-style-type:none; }
   .menu li { background-color:pink; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
@@ -17,14 +18,14 @@
   ul.char li:before { content:"*"; padding-right:0px; color:red; }
   @media only screen and(max-width:768px) { [class*="col-"] {width:100%; }}
   a:link {  color:blue; background-color:transparent; text-decoration:none;}
-  a:visited {  color:pink; background-color:transparent; text-decoration:none;}
+  a:visited {  color:white; background-color:transparent; text-decoration:none;}
   a:hover {  color:red; background-color:transparent; text-decoration:underline;}
   a:active {  color:blue; background-color:transparent; text-decoration:none;}
 </style>
 <title>20171388 ePortfolio</title> </head>
 <body>
   <header class="header">
-    <h2>201X1388 ePortfolio</h2>
+    <h2>20171388 ePortfolio</h2>
   </header>
    <nav class="col-3 col-m-3 menu">
     <ul>
@@ -34,7 +35,7 @@
       <li><a href="purpose.html">purpose</a></li>
     </ul>
   </nav>
-  <section class="col-6 col-m-9"> 
+  <section class=" main col-6 col-m-9"> 
     <h2>profil</h2><br/>
     <ul type="none">
       <li><h4>학력</h4>
@@ -48,7 +49,7 @@
     </ul>
   </section>  <!-- /main -->
   <aside class="col-3 banner">
-    <ul><li><a href="http://www.dju.ac.kr"><img src="../pic/dju.png"></a></li>
+    <ul><li><a href="http://www.dju.ac.kr"><img src="../pic/dju.png"></a></li></ul>
   </aside>
   <div class="row"></div>
   <footer class="footer">
