@@ -1,0 +1,60 @@
+<!doctype html> <!-- purpose.html -->
+<html>
+<head> <meta charset = "utf-8"/>
+<meta name = "viewport" content="width=device-width, initial-scale=1"/>
+<link rel="stylesheet" href="../css/rwd4.css"/>
+<style>
+  * { box-sizing:border-box; padding:0; margin:0; }
+  .row::after { content:""; clear:both; display:table; } 
+  [class*="col-"] { float:left; padding:10px; }
+  nav, section, aside { background-color:#FFFFD2; }
+  .header, .footer { background-color:lightgray; color:blue; padding:10px; }
+  .menu ul, .banner ul { list-style-type:none; }
+  .menu li { background-color:pink; color:black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
+  .menu li hover { background-color:red; }
+  .banner li { border:2px soikd black; padding:10px; margin-bottom:10px; box-shadow:0 1px 3px gray; }
+  .banner li img { width:30%; vertical-align:middle; }
+  ul.char { list-style:none; }
+  ul.char li:before { content:"*"; padding-right:0px; color:red; }
+  @media only screen and(max-width:768px) { [class*="col-"] {width:100%; }}
+  a:link {  color:blue; background-color:transparent; text-decoration:none;}
+  a:visited {  color:white; background-color:transparent; text-decoration:none;}
+  a:hover {  color:red; background-color:transparent; text-decoration:underline;}
+  a:active {  color:blue; background-color:transparent; text-decoration:none;}
+</style>
+<title>20171388 ePortfolio</title> </head>
+<body>
+  <header class="header">
+    <h2>20171388 ePortfolio</h2>
+  </header>
+   <nav class="col-3 col-m-3 menu">
+    <ul>
+      <li><a href="ePortfolio.html">profil</a></li>
+      <li><a href="acquire.html">acquire</a></li>
+      <li><a href="curriculum.html">curriculum</a></li>
+      <li><a href="purpose.html">purpose</a></li>
+    </ul>
+  </nav>
+  <section class="col-6 col-m-9"> 
+    <h2>purpose</h2><br/>
+    <ul type="none">
+      <li><h4>목표</h4>
+      <ul class="char">
+        <li> 18년도에 컴활 1급, 워드 1급 자격증 취득</li>
+        <li> 20년도에 졸업 전 기사 자격증 취득</li>
+        <li> 컴퓨터 교직이수 완료</li>
+        <li> 보안분야 혹은 교사로 취직</li>
+        <li> 일본 기업으로 이전 하고 싶습니다.</li>
+      </ul>
+      </li>
+    </ul>
+  </section>  <!-- /main -->
+  <aside class="col-3 banner">
+    <ul><li><a href="http://www.dju.ac.kr"><img src="../pic/dju.png"></a></li></ul>
+  </aside>
+  <div class="row"></div>
+  <footer class="footer">
+    <p>&copy; 20XX Made by Korea. All rights reserved.</p>
+  </footer>
+</body>
+</html>
