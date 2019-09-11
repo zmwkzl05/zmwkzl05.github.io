@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=utf-8" pageEncoding="utf-8"%>
-<%@ page info="Page Directive Test"import="java.util.*"buffer="5kb"autoFlush="true"errorPage="errorPage.jsp"%>
+<%@ page info="Page Directive Test" import="java.util.*" buffer="5kb" autoFlush="true" errorPage="errorPage.jsp"%>
 <!DOCTYPE html> <!-- pageText1.jsp -->
 <html>
 <head>
